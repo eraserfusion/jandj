@@ -38,8 +38,11 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Windows does not come with time zone data
+#gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 gem 'foundation-rails'
+gem 'tzinfo-data'
 
 gem 'spree', '2.3.4'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-3-stable'
